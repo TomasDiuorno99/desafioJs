@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+body{
+    background-color: black;
+}
+
+header .navbar .container-fluid {
+    display: flex; }
+    header .navbar .container-fluid .redes {
+      display: flex;
+      width: fit-content; }
+      header .navbar .container-fluid .redes .link-redes {
+        display: grid;
+        width: 40px;
+        justify-items: center;
+        padding: 10px;
+        transition: all 600ms; }
+        header .navbar .container-fluid .redes .link-redes .facebook-dos {
+          width: 100%; }
+        header .navbar .container-fluid .redes .link-redes .instagram-dos {
+          width: 100%; }
+        header .navbar .container-fluid .redes .link-redes .twitter-dos {
+          width: 100%; }
+        header .navbar .container-fluid .redes .link-redes:hover {
+          transform: scale(1.15); }
+    header .navbar .container-fluid .navbar-brand {
+      display: flex;
+      justify-content: center; }
+      header .navbar .container-fluid .navbar-brand .logo {
+        width: 40%;
+        margin: 1rem;
+        transition: all 300ms; }
+        header .navbar .container-fluid .navbar-brand .logo:hover {
+          transform: scale(1.1); }
+    header .navbar .container-fluid .navbar-collapse {
+      text-align: center; }
+      header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+        margin: 0.5rem;
+        font-size: 2rem;
+        font-family: 'Bangers', cursive;
+        transition: all 300ms; }
+        header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item:hover {
+          transform: scale(1.15); }
+  
+
+.main-contacto {
+    padding: 2rem;
+    background-color: #252525;
+    text-align: center; }
+    .main-contacto .title-contacto {
+      color: #D72323;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 1.8rem;
+      text-decoration: underline;
+      text-align: center;
+      -webkit-text-stroke: 0.4px;
+      -webkit-text-stroke-color: #000000; }
+    .main-contacto .contacto-per .mail-contacto p {
+      color: #ffffff;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 1.2rem; }
+    .main-contacto .envianos-tu-msj {
+      color: #D72323;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 1.8rem;
+      text-decoration: underline;
+      text-align: center;
+      -webkit-text-stroke: 0.4px;
+      -webkit-text-stroke-color: #000000; }
+    .main-contacto form {
+      margin: auto;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 10px 20px;
+      box-sizing: border-box;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px; }
+      .main-contacto form input, .main-contacto form textarea {
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-sizing: border-box; }
+
+footer{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 1rem;
+}
